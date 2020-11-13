@@ -1,0 +1,46 @@
+body{
+    background-image: url(./Intro.svg);
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.avatar{
+    background-image: url(./Avatar.svg);
+    width: 50px;
+    height: 52px;
+    display: flex;
+    background-size: cover;
+    
+}
+.headerUser{
+    background-color: indianred;
+    height: 52px;
+    display:flex;
+}
+.user{
+    padding: 15px;
+}
+.menuBar {
+    width: 25%;
+    background-color: lavenderblush;
+    min-height:100%;
+    /* //display:flex;
+    justify-content: ; */
+}
+.startButton {
+    border-radius: 16px;
+    border-color: red;
+    padding: 20px 48px;
+    outline-style: none;
+    background-color: gray;
+    cursor: pointer;
+
+}
+.contant{
+    display:flex;
+}
+

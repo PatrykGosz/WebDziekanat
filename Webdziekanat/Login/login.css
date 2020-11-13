@@ -1,0 +1,33 @@
+body{
+    background-image: url(./Login.svg);
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.avatar{
+    background-image: url(./Avatar.svg);
+    width: 50px;
+    height: 52px;
+    display: flex;
+    background-size: cover;
+    margin: 0 46%;
+}
+
+h1{
+    max-height: 100px;
+    text-align: center;
+    color: #DCDCDC;
+}
+.loginBox {
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+    margin: 10% 30%;
+    background-color: indianred;
+
+}
