@@ -1,0 +1,130 @@
+body{
+    background-image: url(./schedule.svg);
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    overflow: hidden;
+}
+.avatar{
+    background-image: url(./Avatar.svg);
+    width: 50px;
+    height: 52px;
+    display: flex;
+    background-size: cover;
+    
+}
+.headerUser{
+    background-color: indianred;
+    overflow: hidden;
+    display:flex;
+    padding: 10px 5px;
+}
+.user{
+    padding: 15px;
+}
+.menuBar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.menuBar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .menuBar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .menuBar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+
+.contant {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+img{
+    margin-left: 15%;
+    height: 55%;
+    width: 75% ;
+}
+
+
+h3{
+    text-align: center;
+}
+
+.headerUser a{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+.headerUser a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.person{
+  display: flex;
+  float: left;
+}
+.linkHeader{
+position:absolute;
+right: 1%
+}
+
+@media screen and (max-width: 700px) {
+  .menuBar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .menuBar a {float: left;}
+  div.contant {
+      margin-left: 0;
+      width: 90%;
+  }
+  img{
+    margin-left: 0 !important;
+    width:100% !important;
+  }
+  .person{
+    position: relative ;
+    display: block !important;
+  }
+  .linkHeader{
+    position: relative !important;
+  }
+  .avatar{
+    margin: auto;
+  }
+  .user{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .menuBar a {
+    text-align: center;
+    float: none;
+  }
+}
